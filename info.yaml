@@ -10,16 +10,16 @@ project:
 
 # test within caravel
 caravel_test:
-  recipe: "coco_test"
+  recipe: "UNIMPLEMENTED"
   directory: "caravel_test"
-  id: 1
-  module_name: "wrapped_project"
-  instance_name: "wrapped_project"
+  id: 14
+  module_name: "wrapped_OpenPUF"
+  instance_name: "wrapped_OpenPUF"
 
 # module test
 module_test:
   recipe: "all" 
-  directory: "project directory"
+  directory: "OpenPUF"
   makefile: "Makefile"
 
 # run the wrapper formal proof
