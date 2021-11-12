@@ -3,7 +3,7 @@
     `define MPRJ_IO_PADS 38    
 `endif
 // update this to the name of your module
-module wrapped_project(
+module wrapped_OpenPUF(
 `ifdef USE_POWER_PINS
     inout vccd1,	// User area 1 1.8V supply
     inout vssd1,	// User area 1 digital ground
@@ -74,6 +74,42 @@ module wrapped_project(
     // Instantiate your module here, 
     // connecting what you need of the above signals. 
     // Use the buffered outputs for your module's outputs.
+
+    // I will be instantiating 4 different PUFs as a proof-of-concept to show
+    // how placing the same circuitry differently yields a different
+    // function.
+
+    DelayPUF PUF0 (
+        .clk(wb_clk_i), 
+        .reset(la_data_in[0]), 
+        .a_run(la_data_in[1]),
+        .a_challenge(la_data_in[15:8]), 
+        .result(buf_la_data_out[0])
+    );
+
+    DelayPUF PUF1 (
+        .clk(wb_clk_i), 
+        .reset(la_data_in[0]), 
+        .a_run(la_data_in[1]),
+        .a_challenge(la_data_in[15:8]), 
+        .result(buf_la_data_out[1])
+    );
+
+    DelayPUF PUF2 (
+        .clk(wb_clk_i), 
+        .reset(la_data_in[0]), 
+        .a_run(la_data_in[1]),
+        .a_challenge(la_data_in[15:8]), 
+        .result(buf_la_data_out[2])
+    );
+
+    DelayPUF PUF3 (
+        .clk(wb_clk_i), 
+        .reset(la_data_in[0]), 
+        .a_run(la_data_in[1]),
+        .a_challenge(la_data_in[15:8]), 
+        .result(buf_la_data_out[2])
+    );
 
 endmodule 
 `default_nettype wire

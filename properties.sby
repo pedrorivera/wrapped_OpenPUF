@@ -5,10 +5,10 @@ mode prove
 smtbmc
 
 [script]
-read -formal wrapper.v rest of your source files.v
-prep -top wrapped_project
+read -formal wrapper.v DelayPUF.v
+prep -top wrapped_OpenPUF
 
 [files]
 wrapper.v
 properties.v
-rest of your source files.v
+OpenPUF/src/DelayPUF.v

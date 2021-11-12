@@ -1,12 +1,12 @@
 --- 
 # information
 project: 
-  title: "title"
-  description: "description"
-  picture: docs/empty.png
-  author: "Author"
-  github: https://github.com/link
-  license: LICENSE
+  title: "OpenPUF"
+  description: "A delay-based physically-unclonable function (PUF) proof of concept"
+  picture: doc/delay_arbiter_puf.png
+  author: "Pedro Rivera"
+  github: https://github.com/pedrorivera/OpenPUF
+  license: Apache-2.0
 
 # test within caravel
 caravel_test:
@@ -34,11 +34,11 @@ openlane:
 # source required for various configs and module instantiation
 source:
     - wrapper.v
-    - other source files here
+    - OpenPUF/src/DelayPUF.v
 
 # gds - check size = 300x300, nothing on metal 5, do a DRC, check 141 tristate buffers, check LVS
 gds:
   directory: "gds"
-  gds_filename: "project.gds"
-  lvs_filename: "project.lvs.powered.v"
-  lef_filename: "project.lef"
+  gds_filename: "wrapped_OpenPUF.gds"
+  lvs_filename: "wrapped_OpenPUF.lvs.powered.v"
+  lef_filename: "wrapped_OpenPUF.lef"

@@ -2,11 +2,11 @@
 set script_dir [file dirname [file normalize [info script]]]
 
 # name of your project, should also match the name of the top module
-set ::env(DESIGN_NAME) project_name
+set ::env(DESIGN_NAME) wrapped_OpenPUF
 
 # add your source files here
 set ::env(VERILOG_FILES) "$::env(DESIGN_DIR)/wrapper.v \
-    $::env(DESIGN_DIR)/other source files.v"
+    $::env(DESIGN_DIR)/OpenPUF/src/DelayPUF.v"
 
 # target density, change this if you can't get your design to fit
 set ::env(PL_TARGET_DENSITY) 0.4
@@ -38,3 +38,9 @@ set ::env(FP_PIN_ORDER_CFG) $script_dir/pin_order.cfg
 
 # turn off CVC as we have multiple power domains
 set ::env(RUN_CVC) 0
+
+# PEDRO MISC #
+# Avoids optimization of MUX2_1 cells
+set ::env(SYNTH_NO_FLAT) 1
+# Added command to take modules starting with $ as internal cells
+set ::env(READ_VERILOG_OPTS) {icells}

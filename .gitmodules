@@ -1,0 +1,3 @@
+[submodule "OpenPUF"]
+	path = OpenPUF
+	url = https://github.com/pedrorivera/OpenPUF
