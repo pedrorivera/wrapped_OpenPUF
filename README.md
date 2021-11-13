@@ -10,9 +10,7 @@ In order to prevent optimization of the technology cells I want to force, the ar
 The variable should be set in the project's config.tcl (e.g. `set ::env(READ_VERILOG_OPTS) {icells}`)
 
 # Simulation
-`make all` will run the testbech. However, the first two lines of DelayPUF.v have to be uncommented to enable `define SIM` (but commented back for synthesis!) 
-
-I'm sure there's a more elegant way
+`make all` will lint with verilator and compile and run the testbech with iverilog.
 
 # License
 
