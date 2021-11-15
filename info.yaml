@@ -5,8 +5,9 @@ project:
   description: "A delay-based physically-unclonable function (PUF) proof of concept"
   picture: doc/delay_arbiter_puf.png
   author: "Pedro Rivera"
-  github: https://github.com/pedrorivera/OpenPUF
   license: Apache-2.0
+
+interfaces: ['la1']
 
 # test within caravel
 caravel_test:
