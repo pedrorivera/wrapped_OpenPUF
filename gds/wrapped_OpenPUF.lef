@@ -12,23 +12,23 @@ MACRO wrapped_OpenPUF
     USE SIGNAL ;
     PORT
       LAYER met2 ;
-        RECT 18.490 296.000 18.770 300.000 ;
+        RECT 17.110 296.000 17.390 300.000 ;
     END
   END active
   PIN la1_data_in[0]
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER met2 ;
-        RECT 6.070 0.000 6.350 4.000 ;
+      LAYER met3 ;
+        RECT 0.000 6.840 4.000 7.440 ;
     END
   END la1_data_in[0]
   PIN la1_data_in[10]
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER met2 ;
-        RECT 105.890 0.000 106.170 4.000 ;
+      LAYER met3 ;
+        RECT 296.000 68.040 300.000 68.640 ;
     END
   END la1_data_in[10]
   PIN la1_data_in[11]
@@ -36,7 +36,7 @@ MACRO wrapped_OpenPUF
     USE SIGNAL ;
     PORT
       LAYER met2 ;
-        RECT 130.730 0.000 131.010 4.000 ;
+        RECT 167.070 296.000 167.350 300.000 ;
     END
   END la1_data_in[11]
   PIN la1_data_in[12]
@@ -44,7 +44,7 @@ MACRO wrapped_OpenPUF
     USE SIGNAL ;
     PORT
       LAYER met3 ;
-        RECT 296.000 128.560 300.000 129.160 ;
+        RECT 296.000 93.200 300.000 93.800 ;
     END
   END la1_data_in[12]
   PIN la1_data_in[13]
@@ -52,31 +52,31 @@ MACRO wrapped_OpenPUF
     USE SIGNAL ;
     PORT
       LAYER met3 ;
-        RECT 296.000 148.960 300.000 149.560 ;
+        RECT 296.000 106.120 300.000 106.720 ;
     END
   END la1_data_in[13]
   PIN la1_data_in[14]
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER met3 ;
-        RECT 296.000 159.840 300.000 160.440 ;
+      LAYER met2 ;
+        RECT 190.070 296.000 190.350 300.000 ;
     END
   END la1_data_in[14]
   PIN la1_data_in[15]
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER met2 ;
-        RECT 105.890 296.000 106.170 300.000 ;
+      LAYER met3 ;
+        RECT 296.000 118.360 300.000 118.960 ;
     END
   END la1_data_in[15]
   PIN la1_data_in[16]
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER met2 ;
-        RECT 118.310 296.000 118.590 300.000 ;
+      LAYER met3 ;
+        RECT 296.000 130.600 300.000 131.200 ;
     END
   END la1_data_in[16]
   PIN la1_data_in[17]
@@ -84,7 +84,7 @@ MACRO wrapped_OpenPUF
     USE SIGNAL ;
     PORT
       LAYER met2 ;
-        RECT 193.290 0.000 193.570 4.000 ;
+        RECT 149.590 0.000 149.870 4.000 ;
     END
   END la1_data_in[17]
   PIN la1_data_in[18]
@@ -92,47 +92,47 @@ MACRO wrapped_OpenPUF
     USE SIGNAL ;
     PORT
       LAYER met3 ;
-        RECT 296.000 180.240 300.000 180.840 ;
+        RECT 0.000 149.640 4.000 150.240 ;
     END
   END la1_data_in[18]
   PIN la1_data_in[19]
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER met2 ;
-        RECT 168.450 296.000 168.730 300.000 ;
+      LAYER met3 ;
+        RECT 296.000 180.920 300.000 181.520 ;
     END
   END la1_data_in[19]
   PIN la1_data_in[1]
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER met3 ;
-        RECT 0.000 6.840 4.000 7.440 ;
+      LAYER met2 ;
+        RECT 16.650 0.000 16.930 4.000 ;
     END
   END la1_data_in[1]
   PIN la1_data_in[20]
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER met3 ;
-        RECT 296.000 211.520 300.000 212.120 ;
+      LAYER met2 ;
+        RECT 224.570 296.000 224.850 300.000 ;
     END
   END la1_data_in[20]
   PIN la1_data_in[21]
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER met3 ;
-        RECT 296.000 231.920 300.000 232.520 ;
+      LAYER met2 ;
+        RECT 183.170 0.000 183.450 4.000 ;
     END
   END la1_data_in[21]
   PIN la1_data_in[22]
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER met2 ;
-        RECT 193.290 296.000 193.570 300.000 ;
+      LAYER met3 ;
+        RECT 296.000 218.320 300.000 218.920 ;
     END
   END la1_data_in[22]
   PIN la1_data_in[23]
@@ -140,15 +140,15 @@ MACRO wrapped_OpenPUF
     USE SIGNAL ;
     PORT
       LAYER met2 ;
-        RECT 243.430 0.000 243.710 4.000 ;
+        RECT 205.250 0.000 205.530 4.000 ;
     END
   END la1_data_in[23]
   PIN la1_data_in[24]
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER met2 ;
-        RECT 205.710 296.000 205.990 300.000 ;
+      LAYER met3 ;
+        RECT 296.000 230.560 300.000 231.160 ;
     END
   END la1_data_in[24]
   PIN la1_data_in[25]
@@ -156,23 +156,23 @@ MACRO wrapped_OpenPUF
     USE SIGNAL ;
     PORT
       LAYER met2 ;
-        RECT 231.010 296.000 231.290 300.000 ;
+        RECT 238.830 0.000 239.110 4.000 ;
     END
   END la1_data_in[25]
   PIN la1_data_in[26]
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER met2 ;
-        RECT 255.850 296.000 256.130 300.000 ;
+      LAYER met3 ;
+        RECT 0.000 235.320 4.000 235.920 ;
     END
   END la1_data_in[26]
   PIN la1_data_in[27]
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER met3 ;
-        RECT 0.000 221.040 4.000 221.640 ;
+      LAYER met2 ;
+        RECT 249.870 0.000 250.150 4.000 ;
     END
   END la1_data_in[27]
   PIN la1_data_in[28]
@@ -180,63 +180,63 @@ MACRO wrapped_OpenPUF
     USE SIGNAL ;
     PORT
       LAYER met2 ;
-        RECT 280.690 0.000 280.970 4.000 ;
+        RECT 259.070 296.000 259.350 300.000 ;
     END
   END la1_data_in[28]
   PIN la1_data_in[29]
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER met3 ;
-        RECT 0.000 278.160 4.000 278.760 ;
+      LAYER met2 ;
+        RECT 282.070 296.000 282.350 300.000 ;
     END
   END la1_data_in[29]
   PIN la1_data_in[2]
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER met2 ;
-        RECT 55.750 296.000 56.030 300.000 ;
+      LAYER met3 ;
+        RECT 0.000 49.680 4.000 50.280 ;
     END
   END la1_data_in[2]
   PIN la1_data_in[30]
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER met3 ;
-        RECT 296.000 263.200 300.000 263.800 ;
+      LAYER met2 ;
+        RECT 282.990 0.000 283.270 4.000 ;
     END
   END la1_data_in[30]
   PIN la1_data_in[31]
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER met2 ;
-        RECT 293.110 296.000 293.390 300.000 ;
+      LAYER met3 ;
+        RECT 0.000 292.440 4.000 293.040 ;
     END
   END la1_data_in[31]
   PIN la1_data_in[3]
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER met3 ;
-        RECT 296.000 15.000 300.000 15.600 ;
+      LAYER met2 ;
+        RECT 27.690 0.000 27.970 4.000 ;
     END
   END la1_data_in[3]
   PIN la1_data_in[4]
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER met3 ;
-        RECT 0.000 49.680 4.000 50.280 ;
+      LAYER met2 ;
+        RECT 51.610 296.000 51.890 300.000 ;
     END
   END la1_data_in[4]
   PIN la1_data_in[5]
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER met3 ;
-        RECT 296.000 56.480 300.000 57.080 ;
+      LAYER met2 ;
+        RECT 49.770 0.000 50.050 4.000 ;
     END
   END la1_data_in[5]
   PIN la1_data_in[6]
@@ -244,15 +244,15 @@ MACRO wrapped_OpenPUF
     USE SIGNAL ;
     PORT
       LAYER met3 ;
-        RECT 296.000 66.680 300.000 67.280 ;
+        RECT 0.000 78.240 4.000 78.840 ;
     END
   END la1_data_in[6]
   PIN la1_data_in[7]
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER met2 ;
-        RECT 68.170 0.000 68.450 4.000 ;
+      LAYER met3 ;
+        RECT 296.000 30.640 300.000 31.240 ;
     END
   END la1_data_in[7]
   PIN la1_data_in[8]
@@ -260,15 +260,15 @@ MACRO wrapped_OpenPUF
     USE SIGNAL ;
     PORT
       LAYER met3 ;
-        RECT 0.000 78.240 4.000 78.840 ;
+        RECT 0.000 92.520 4.000 93.120 ;
     END
   END la1_data_in[8]
   PIN la1_data_in[9]
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER met3 ;
-        RECT 296.000 97.280 300.000 97.880 ;
+      LAYER met2 ;
+        RECT 120.610 296.000 120.890 300.000 ;
     END
   END la1_data_in[9]
   PIN la1_data_out[0]
@@ -276,7 +276,7 @@ MACRO wrapped_OpenPUF
     USE SIGNAL ;
     PORT
       LAYER met2 ;
-        RECT 30.910 296.000 31.190 300.000 ;
+        RECT 28.610 296.000 28.890 300.000 ;
     END
   END la1_data_out[0]
   PIN la1_data_out[10]
@@ -284,31 +284,31 @@ MACRO wrapped_OpenPUF
     USE SIGNAL ;
     PORT
       LAYER met2 ;
-        RECT 118.310 0.000 118.590 4.000 ;
+        RECT 83.350 0.000 83.630 4.000 ;
     END
   END la1_data_out[10]
   PIN la1_data_out[11]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
     PORT
-      LAYER met3 ;
-        RECT 296.000 118.360 300.000 118.960 ;
+      LAYER met2 ;
+        RECT 94.390 0.000 94.670 4.000 ;
     END
   END la1_data_out[11]
   PIN la1_data_out[12]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
     PORT
-      LAYER met3 ;
-        RECT 296.000 138.760 300.000 139.360 ;
+      LAYER met2 ;
+        RECT 178.570 296.000 178.850 300.000 ;
     END
   END la1_data_out[12]
   PIN la1_data_out[13]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
     PORT
-      LAYER met2 ;
-        RECT 93.470 296.000 93.750 300.000 ;
+      LAYER met3 ;
+        RECT 0.000 106.800 4.000 107.400 ;
     END
   END la1_data_out[13]
   PIN la1_data_out[14]
@@ -316,7 +316,7 @@ MACRO wrapped_OpenPUF
     USE SIGNAL ;
     PORT
       LAYER met2 ;
-        RECT 156.030 0.000 156.310 4.000 ;
+        RECT 127.510 0.000 127.790 4.000 ;
     END
   END la1_data_out[14]
   PIN la1_data_out[15]
@@ -332,7 +332,7 @@ MACRO wrapped_OpenPUF
     USE SIGNAL ;
     PORT
       LAYER met3 ;
-        RECT 296.000 170.040 300.000 170.640 ;
+        RECT 296.000 143.520 300.000 144.120 ;
     END
   END la1_data_out[16]
   PIN la1_data_out[17]
@@ -340,7 +340,7 @@ MACRO wrapped_OpenPUF
     USE SIGNAL ;
     PORT
       LAYER met3 ;
-        RECT 0.000 149.640 4.000 150.240 ;
+        RECT 296.000 155.760 300.000 156.360 ;
     END
   END la1_data_out[17]
   PIN la1_data_out[18]
@@ -348,23 +348,23 @@ MACRO wrapped_OpenPUF
     USE SIGNAL ;
     PORT
       LAYER met2 ;
-        RECT 156.030 296.000 156.310 300.000 ;
+        RECT 161.090 0.000 161.370 4.000 ;
     END
   END la1_data_out[18]
   PIN la1_data_out[19]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
     PORT
-      LAYER met2 ;
-        RECT 180.870 296.000 181.150 300.000 ;
+      LAYER met3 ;
+        RECT 296.000 193.160 300.000 193.760 ;
     END
   END la1_data_out[19]
   PIN la1_data_out[1]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
     PORT
-      LAYER met2 ;
-        RECT 43.330 296.000 43.610 300.000 ;
+      LAYER met3 ;
+        RECT 0.000 21.120 4.000 21.720 ;
     END
   END la1_data_out[1]
   PIN la1_data_out[20]
@@ -372,47 +372,47 @@ MACRO wrapped_OpenPUF
     USE SIGNAL ;
     PORT
       LAYER met3 ;
-        RECT 296.000 221.720 300.000 222.320 ;
+        RECT 0.000 163.920 4.000 164.520 ;
     END
   END la1_data_out[20]
   PIN la1_data_out[21]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
     PORT
-      LAYER met2 ;
-        RECT 218.130 0.000 218.410 4.000 ;
+      LAYER met3 ;
+        RECT 0.000 178.200 4.000 178.800 ;
     END
   END la1_data_out[21]
   PIN la1_data_out[22]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
     PORT
-      LAYER met3 ;
-        RECT 296.000 242.120 300.000 242.720 ;
+      LAYER met2 ;
+        RECT 236.070 296.000 236.350 300.000 ;
     END
   END la1_data_out[22]
   PIN la1_data_out[23]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
     PORT
-      LAYER met2 ;
-        RECT 255.850 0.000 256.130 4.000 ;
+      LAYER met3 ;
+        RECT 0.000 192.480 4.000 193.080 ;
     END
   END la1_data_out[23]
   PIN la1_data_out[24]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
     PORT
-      LAYER met2 ;
-        RECT 218.130 296.000 218.410 300.000 ;
+      LAYER met3 ;
+        RECT 0.000 206.760 4.000 207.360 ;
     END
   END la1_data_out[24]
   PIN la1_data_out[25]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
     PORT
-      LAYER met2 ;
-        RECT 268.270 0.000 268.550 4.000 ;
+      LAYER met3 ;
+        RECT 296.000 243.480 300.000 244.080 ;
     END
   END la1_data_out[25]
   PIN la1_data_out[26]
@@ -420,7 +420,7 @@ MACRO wrapped_OpenPUF
     USE SIGNAL ;
     PORT
       LAYER met3 ;
-        RECT 0.000 192.480 4.000 193.080 ;
+        RECT 0.000 249.600 4.000 250.200 ;
     END
   END la1_data_out[26]
   PIN la1_data_out[27]
@@ -428,15 +428,15 @@ MACRO wrapped_OpenPUF
     USE SIGNAL ;
     PORT
       LAYER met2 ;
-        RECT 268.270 296.000 268.550 300.000 ;
+        RECT 260.910 0.000 261.190 4.000 ;
     END
   END la1_data_out[27]
   PIN la1_data_out[28]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
     PORT
-      LAYER met3 ;
-        RECT 0.000 249.600 4.000 250.200 ;
+      LAYER met2 ;
+        RECT 270.570 296.000 270.850 300.000 ;
     END
   END la1_data_out[28]
   PIN la1_data_out[29]
@@ -444,7 +444,7 @@ MACRO wrapped_OpenPUF
     USE SIGNAL ;
     PORT
       LAYER met2 ;
-        RECT 293.110 0.000 293.390 4.000 ;
+        RECT 271.950 0.000 272.230 4.000 ;
     END
   END la1_data_out[29]
   PIN la1_data_out[2]
@@ -452,7 +452,7 @@ MACRO wrapped_OpenPUF
     USE SIGNAL ;
     PORT
       LAYER met2 ;
-        RECT 18.490 0.000 18.770 4.000 ;
+        RECT 40.110 296.000 40.390 300.000 ;
     END
   END la1_data_out[2]
   PIN la1_data_out[30]
@@ -460,15 +460,15 @@ MACRO wrapped_OpenPUF
     USE SIGNAL ;
     PORT
       LAYER met3 ;
-        RECT 296.000 273.400 300.000 274.000 ;
+        RECT 0.000 263.880 4.000 264.480 ;
     END
   END la1_data_out[30]
   PIN la1_data_out[31]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
     PORT
-      LAYER met3 ;
-        RECT 296.000 283.600 300.000 284.200 ;
+      LAYER met2 ;
+        RECT 294.030 0.000 294.310 4.000 ;
     END
   END la1_data_out[31]
   PIN la1_data_out[3]
@@ -476,15 +476,15 @@ MACRO wrapped_OpenPUF
     USE SIGNAL ;
     PORT
       LAYER met3 ;
-        RECT 296.000 25.200 300.000 25.800 ;
+        RECT 296.000 6.160 300.000 6.760 ;
     END
   END la1_data_out[3]
   PIN la1_data_out[4]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
     PORT
-      LAYER met3 ;
-        RECT 296.000 35.400 300.000 36.000 ;
+      LAYER met2 ;
+        RECT 63.110 296.000 63.390 300.000 ;
     END
   END la1_data_out[4]
   PIN la1_data_out[5]
@@ -492,15 +492,15 @@ MACRO wrapped_OpenPUF
     USE SIGNAL ;
     PORT
       LAYER met2 ;
-        RECT 43.330 0.000 43.610 4.000 ;
+        RECT 74.610 296.000 74.890 300.000 ;
     END
   END la1_data_out[5]
   PIN la1_data_out[6]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
     PORT
-      LAYER met3 ;
-        RECT 296.000 76.880 300.000 77.480 ;
+      LAYER met2 ;
+        RECT 86.110 296.000 86.390 300.000 ;
     END
   END la1_data_out[6]
   PIN la1_data_out[7]
@@ -508,7 +508,7 @@ MACRO wrapped_OpenPUF
     USE SIGNAL ;
     PORT
       LAYER met3 ;
-        RECT 296.000 87.080 300.000 87.680 ;
+        RECT 296.000 43.560 300.000 44.160 ;
     END
   END la1_data_out[7]
   PIN la1_data_out[8]
@@ -516,39 +516,39 @@ MACRO wrapped_OpenPUF
     USE SIGNAL ;
     PORT
       LAYER met2 ;
-        RECT 81.050 0.000 81.330 4.000 ;
+        RECT 97.610 296.000 97.890 300.000 ;
     END
   END la1_data_out[8]
   PIN la1_data_out[9]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
     PORT
-      LAYER met3 ;
-        RECT 296.000 108.160 300.000 108.760 ;
+      LAYER met2 ;
+        RECT 132.110 296.000 132.390 300.000 ;
     END
   END la1_data_out[9]
   PIN la1_oenb[0]
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER met3 ;
-        RECT 296.000 4.800 300.000 5.400 ;
+      LAYER met2 ;
+        RECT 5.610 0.000 5.890 4.000 ;
     END
   END la1_oenb[0]
   PIN la1_oenb[10]
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER met3 ;
-        RECT 0.000 106.800 4.000 107.400 ;
+      LAYER met2 ;
+        RECT 155.570 296.000 155.850 300.000 ;
     END
   END la1_oenb[10]
   PIN la1_oenb[11]
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER met2 ;
-        RECT 143.150 0.000 143.430 4.000 ;
+      LAYER met3 ;
+        RECT 296.000 80.960 300.000 81.560 ;
     END
   END la1_oenb[11]
   PIN la1_oenb[12]
@@ -556,23 +556,23 @@ MACRO wrapped_OpenPUF
     USE SIGNAL ;
     PORT
       LAYER met2 ;
-        RECT 81.050 296.000 81.330 300.000 ;
+        RECT 105.430 0.000 105.710 4.000 ;
     END
   END la1_oenb[12]
   PIN la1_oenb[13]
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER met3 ;
-        RECT 0.000 121.080 4.000 121.680 ;
+      LAYER met2 ;
+        RECT 116.470 0.000 116.750 4.000 ;
     END
   END la1_oenb[13]
   PIN la1_oenb[14]
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER met2 ;
-        RECT 168.450 0.000 168.730 4.000 ;
+      LAYER met3 ;
+        RECT 0.000 121.080 4.000 121.680 ;
     END
   END la1_oenb[14]
   PIN la1_oenb[15]
@@ -580,7 +580,7 @@ MACRO wrapped_OpenPUF
     USE SIGNAL ;
     PORT
       LAYER met2 ;
-        RECT 180.870 0.000 181.150 4.000 ;
+        RECT 138.550 0.000 138.830 4.000 ;
     END
   END la1_oenb[15]
   PIN la1_oenb[16]
@@ -588,7 +588,7 @@ MACRO wrapped_OpenPUF
     USE SIGNAL ;
     PORT
       LAYER met2 ;
-        RECT 130.730 296.000 131.010 300.000 ;
+        RECT 201.570 296.000 201.850 300.000 ;
     END
   END la1_oenb[16]
   PIN la1_oenb[17]
@@ -596,7 +596,7 @@ MACRO wrapped_OpenPUF
     USE SIGNAL ;
     PORT
       LAYER met2 ;
-        RECT 143.150 296.000 143.430 300.000 ;
+        RECT 213.070 296.000 213.350 300.000 ;
     END
   END la1_oenb[17]
   PIN la1_oenb[18]
@@ -604,15 +604,15 @@ MACRO wrapped_OpenPUF
     USE SIGNAL ;
     PORT
       LAYER met3 ;
-        RECT 296.000 190.440 300.000 191.040 ;
+        RECT 296.000 168.000 300.000 168.600 ;
     END
   END la1_oenb[18]
   PIN la1_oenb[19]
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER met3 ;
-        RECT 296.000 200.640 300.000 201.240 ;
+      LAYER met2 ;
+        RECT 172.130 0.000 172.410 4.000 ;
     END
   END la1_oenb[19]
   PIN la1_oenb[1]
@@ -620,15 +620,15 @@ MACRO wrapped_OpenPUF
     USE SIGNAL ;
     PORT
       LAYER met3 ;
-        RECT 0.000 21.120 4.000 21.720 ;
+        RECT 0.000 35.400 4.000 36.000 ;
     END
   END la1_oenb[1]
   PIN la1_oenb[20]
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER met2 ;
-        RECT 205.710 0.000 205.990 4.000 ;
+      LAYER met3 ;
+        RECT 296.000 206.080 300.000 206.680 ;
     END
   END la1_oenb[20]
   PIN la1_oenb[21]
@@ -636,39 +636,39 @@ MACRO wrapped_OpenPUF
     USE SIGNAL ;
     PORT
       LAYER met2 ;
-        RECT 231.010 0.000 231.290 4.000 ;
+        RECT 194.210 0.000 194.490 4.000 ;
     END
   END la1_oenb[21]
   PIN la1_oenb[22]
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER met3 ;
-        RECT 0.000 163.920 4.000 164.520 ;
+      LAYER met2 ;
+        RECT 247.570 296.000 247.850 300.000 ;
     END
   END la1_oenb[22]
   PIN la1_oenb[23]
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER met3 ;
-        RECT 0.000 178.200 4.000 178.800 ;
+      LAYER met2 ;
+        RECT 216.290 0.000 216.570 4.000 ;
     END
   END la1_oenb[23]
   PIN la1_oenb[24]
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER met3 ;
-        RECT 296.000 252.320 300.000 252.920 ;
+      LAYER met2 ;
+        RECT 227.330 0.000 227.610 4.000 ;
     END
   END la1_oenb[24]
   PIN la1_oenb[25]
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER met2 ;
-        RECT 243.430 296.000 243.710 300.000 ;
+      LAYER met3 ;
+        RECT 0.000 221.040 4.000 221.640 ;
     END
   END la1_oenb[25]
   PIN la1_oenb[26]
@@ -676,7 +676,7 @@ MACRO wrapped_OpenPUF
     USE SIGNAL ;
     PORT
       LAYER met3 ;
-        RECT 0.000 206.760 4.000 207.360 ;
+        RECT 296.000 255.720 300.000 256.320 ;
     END
   END la1_oenb[26]
   PIN la1_oenb[27]
@@ -684,7 +684,7 @@ MACRO wrapped_OpenPUF
     USE SIGNAL ;
     PORT
       LAYER met3 ;
-        RECT 0.000 235.320 4.000 235.920 ;
+        RECT 296.000 267.960 300.000 268.560 ;
     END
   END la1_oenb[27]
   PIN la1_oenb[28]
@@ -692,7 +692,7 @@ MACRO wrapped_OpenPUF
     USE SIGNAL ;
     PORT
       LAYER met3 ;
-        RECT 0.000 263.880 4.000 264.480 ;
+        RECT 296.000 280.880 300.000 281.480 ;
     END
   END la1_oenb[28]
   PIN la1_oenb[29]
@@ -700,7 +700,7 @@ MACRO wrapped_OpenPUF
     USE SIGNAL ;
     PORT
       LAYER met2 ;
-        RECT 280.690 296.000 280.970 300.000 ;
+        RECT 293.570 296.000 293.850 300.000 ;
     END
   END la1_oenb[29]
   PIN la1_oenb[2]
@@ -708,7 +708,7 @@ MACRO wrapped_OpenPUF
     USE SIGNAL ;
     PORT
       LAYER met3 ;
-        RECT 0.000 35.400 4.000 36.000 ;
+        RECT 0.000 63.960 4.000 64.560 ;
     END
   END la1_oenb[2]
   PIN la1_oenb[30]
@@ -716,7 +716,7 @@ MACRO wrapped_OpenPUF
     USE SIGNAL ;
     PORT
       LAYER met3 ;
-        RECT 0.000 292.440 4.000 293.040 ;
+        RECT 0.000 278.160 4.000 278.760 ;
     END
   END la1_oenb[30]
   PIN la1_oenb[31]
@@ -724,31 +724,31 @@ MACRO wrapped_OpenPUF
     USE SIGNAL ;
     PORT
       LAYER met3 ;
-        RECT 296.000 293.800 300.000 294.400 ;
+        RECT 296.000 293.120 300.000 293.720 ;
     END
   END la1_oenb[31]
   PIN la1_oenb[3]
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER met2 ;
-        RECT 30.910 0.000 31.190 4.000 ;
+      LAYER met3 ;
+        RECT 296.000 18.400 300.000 19.000 ;
     END
   END la1_oenb[3]
   PIN la1_oenb[4]
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER met3 ;
-        RECT 296.000 45.600 300.000 46.200 ;
+      LAYER met2 ;
+        RECT 38.730 0.000 39.010 4.000 ;
     END
   END la1_oenb[4]
   PIN la1_oenb[5]
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER met3 ;
-        RECT 0.000 63.960 4.000 64.560 ;
+      LAYER met2 ;
+        RECT 60.810 0.000 61.090 4.000 ;
     END
   END la1_oenb[5]
   PIN la1_oenb[6]
@@ -756,15 +756,15 @@ MACRO wrapped_OpenPUF
     USE SIGNAL ;
     PORT
       LAYER met2 ;
-        RECT 55.750 0.000 56.030 4.000 ;
+        RECT 71.850 0.000 72.130 4.000 ;
     END
   END la1_oenb[6]
   PIN la1_oenb[7]
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER met2 ;
-        RECT 68.170 296.000 68.450 300.000 ;
+      LAYER met3 ;
+        RECT 296.000 55.800 300.000 56.400 ;
     END
   END la1_oenb[7]
   PIN la1_oenb[8]
@@ -772,15 +772,15 @@ MACRO wrapped_OpenPUF
     USE SIGNAL ;
     PORT
       LAYER met2 ;
-        RECT 93.470 0.000 93.750 4.000 ;
+        RECT 109.110 296.000 109.390 300.000 ;
     END
   END la1_oenb[8]
   PIN la1_oenb[9]
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER met3 ;
-        RECT 0.000 92.520 4.000 93.120 ;
+      LAYER met2 ;
+        RECT 143.610 296.000 143.890 300.000 ;
     END
   END la1_oenb[9]
   PIN vccd1
@@ -812,157 +812,155 @@ MACRO wrapped_OpenPUF
     USE SIGNAL ;
     PORT
       LAYER met2 ;
-        RECT 6.070 296.000 6.350 300.000 ;
+        RECT 5.610 296.000 5.890 300.000 ;
     END
   END wb_clk_i
   OBS
       LAYER li1 ;
-        RECT 5.520 10.795 295.635 288.405 ;
+        RECT 5.520 10.795 295.175 288.405 ;
       LAYER met1 ;
-        RECT 5.520 10.640 295.695 288.560 ;
+        RECT 5.520 6.500 295.235 288.560 ;
       LAYER met2 ;
-        RECT 6.630 295.720 18.210 296.000 ;
-        RECT 19.050 295.720 30.630 296.000 ;
-        RECT 31.470 295.720 43.050 296.000 ;
-        RECT 43.890 295.720 55.470 296.000 ;
-        RECT 56.310 295.720 67.890 296.000 ;
-        RECT 68.730 295.720 80.770 296.000 ;
-        RECT 81.610 295.720 93.190 296.000 ;
-        RECT 94.030 295.720 105.610 296.000 ;
-        RECT 106.450 295.720 118.030 296.000 ;
-        RECT 118.870 295.720 130.450 296.000 ;
-        RECT 131.290 295.720 142.870 296.000 ;
-        RECT 143.710 295.720 155.750 296.000 ;
-        RECT 156.590 295.720 168.170 296.000 ;
-        RECT 169.010 295.720 180.590 296.000 ;
-        RECT 181.430 295.720 193.010 296.000 ;
-        RECT 193.850 295.720 205.430 296.000 ;
-        RECT 206.270 295.720 217.850 296.000 ;
-        RECT 218.690 295.720 230.730 296.000 ;
-        RECT 231.570 295.720 243.150 296.000 ;
-        RECT 243.990 295.720 255.570 296.000 ;
-        RECT 256.410 295.720 267.990 296.000 ;
-        RECT 268.830 295.720 280.410 296.000 ;
-        RECT 281.250 295.720 292.830 296.000 ;
-        RECT 293.670 295.720 293.850 296.000 ;
-        RECT 6.080 4.280 293.850 295.720 ;
-        RECT 6.630 3.670 18.210 4.280 ;
-        RECT 19.050 3.670 30.630 4.280 ;
-        RECT 31.470 3.670 43.050 4.280 ;
-        RECT 43.890 3.670 55.470 4.280 ;
-        RECT 56.310 3.670 67.890 4.280 ;
-        RECT 68.730 3.670 80.770 4.280 ;
-        RECT 81.610 3.670 93.190 4.280 ;
-        RECT 94.030 3.670 105.610 4.280 ;
-        RECT 106.450 3.670 118.030 4.280 ;
-        RECT 118.870 3.670 130.450 4.280 ;
-        RECT 131.290 3.670 142.870 4.280 ;
-        RECT 143.710 3.670 155.750 4.280 ;
-        RECT 156.590 3.670 168.170 4.280 ;
-        RECT 169.010 3.670 180.590 4.280 ;
-        RECT 181.430 3.670 193.010 4.280 ;
-        RECT 193.850 3.670 205.430 4.280 ;
-        RECT 206.270 3.670 217.850 4.280 ;
-        RECT 218.690 3.670 230.730 4.280 ;
-        RECT 231.570 3.670 243.150 4.280 ;
-        RECT 243.990 3.670 255.570 4.280 ;
-        RECT 256.410 3.670 267.990 4.280 ;
-        RECT 268.830 3.670 280.410 4.280 ;
-        RECT 281.250 3.670 292.830 4.280 ;
-        RECT 293.670 3.670 293.850 4.280 ;
+        RECT 6.170 295.720 16.830 296.000 ;
+        RECT 17.670 295.720 28.330 296.000 ;
+        RECT 29.170 295.720 39.830 296.000 ;
+        RECT 40.670 295.720 51.330 296.000 ;
+        RECT 52.170 295.720 62.830 296.000 ;
+        RECT 63.670 295.720 74.330 296.000 ;
+        RECT 75.170 295.720 85.830 296.000 ;
+        RECT 86.670 295.720 97.330 296.000 ;
+        RECT 98.170 295.720 108.830 296.000 ;
+        RECT 109.670 295.720 120.330 296.000 ;
+        RECT 121.170 295.720 131.830 296.000 ;
+        RECT 132.670 295.720 143.330 296.000 ;
+        RECT 144.170 295.720 155.290 296.000 ;
+        RECT 156.130 295.720 166.790 296.000 ;
+        RECT 167.630 295.720 178.290 296.000 ;
+        RECT 179.130 295.720 189.790 296.000 ;
+        RECT 190.630 295.720 201.290 296.000 ;
+        RECT 202.130 295.720 212.790 296.000 ;
+        RECT 213.630 295.720 224.290 296.000 ;
+        RECT 225.130 295.720 235.790 296.000 ;
+        RECT 236.630 295.720 247.290 296.000 ;
+        RECT 248.130 295.720 258.790 296.000 ;
+        RECT 259.630 295.720 270.290 296.000 ;
+        RECT 271.130 295.720 281.790 296.000 ;
+        RECT 282.630 295.720 293.290 296.000 ;
+        RECT 294.130 295.720 294.300 296.000 ;
+        RECT 5.680 4.280 294.300 295.720 ;
+        RECT 6.170 4.000 16.370 4.280 ;
+        RECT 17.210 4.000 27.410 4.280 ;
+        RECT 28.250 4.000 38.450 4.280 ;
+        RECT 39.290 4.000 49.490 4.280 ;
+        RECT 50.330 4.000 60.530 4.280 ;
+        RECT 61.370 4.000 71.570 4.280 ;
+        RECT 72.410 4.000 83.070 4.280 ;
+        RECT 83.910 4.000 94.110 4.280 ;
+        RECT 94.950 4.000 105.150 4.280 ;
+        RECT 105.990 4.000 116.190 4.280 ;
+        RECT 117.030 4.000 127.230 4.280 ;
+        RECT 128.070 4.000 138.270 4.280 ;
+        RECT 139.110 4.000 149.310 4.280 ;
+        RECT 150.150 4.000 160.810 4.280 ;
+        RECT 161.650 4.000 171.850 4.280 ;
+        RECT 172.690 4.000 182.890 4.280 ;
+        RECT 183.730 4.000 193.930 4.280 ;
+        RECT 194.770 4.000 204.970 4.280 ;
+        RECT 205.810 4.000 216.010 4.280 ;
+        RECT 216.850 4.000 227.050 4.280 ;
+        RECT 227.890 4.000 238.550 4.280 ;
+        RECT 239.390 4.000 249.590 4.280 ;
+        RECT 250.430 4.000 260.630 4.280 ;
+        RECT 261.470 4.000 271.670 4.280 ;
+        RECT 272.510 4.000 282.710 4.280 ;
+        RECT 283.550 4.000 293.750 4.280 ;
       LAYER met3 ;
-        RECT 4.000 284.600 296.000 288.485 ;
-        RECT 4.000 283.200 295.600 284.600 ;
-        RECT 4.000 279.160 296.000 283.200 ;
+        RECT 4.000 281.880 296.000 288.485 ;
+        RECT 4.000 280.480 295.600 281.880 ;
+        RECT 4.000 279.160 296.000 280.480 ;
         RECT 4.400 277.760 296.000 279.160 ;
-        RECT 4.000 274.400 296.000 277.760 ;
-        RECT 4.000 273.000 295.600 274.400 ;
-        RECT 4.000 264.880 296.000 273.000 ;
-        RECT 4.400 264.200 296.000 264.880 ;
-        RECT 4.400 263.480 295.600 264.200 ;
-        RECT 4.000 262.800 295.600 263.480 ;
-        RECT 4.000 253.320 296.000 262.800 ;
-        RECT 4.000 251.920 295.600 253.320 ;
-        RECT 4.000 250.600 296.000 251.920 ;
+        RECT 4.000 268.960 296.000 277.760 ;
+        RECT 4.000 267.560 295.600 268.960 ;
+        RECT 4.000 264.880 296.000 267.560 ;
+        RECT 4.400 263.480 296.000 264.880 ;
+        RECT 4.000 256.720 296.000 263.480 ;
+        RECT 4.000 255.320 295.600 256.720 ;
+        RECT 4.000 250.600 296.000 255.320 ;
         RECT 4.400 249.200 296.000 250.600 ;
-        RECT 4.000 243.120 296.000 249.200 ;
-        RECT 4.000 241.720 295.600 243.120 ;
-        RECT 4.000 236.320 296.000 241.720 ;
+        RECT 4.000 244.480 296.000 249.200 ;
+        RECT 4.000 243.080 295.600 244.480 ;
+        RECT 4.000 236.320 296.000 243.080 ;
         RECT 4.400 234.920 296.000 236.320 ;
-        RECT 4.000 232.920 296.000 234.920 ;
-        RECT 4.000 231.520 295.600 232.920 ;
-        RECT 4.000 222.720 296.000 231.520 ;
-        RECT 4.000 222.040 295.600 222.720 ;
-        RECT 4.400 221.320 295.600 222.040 ;
-        RECT 4.400 220.640 296.000 221.320 ;
-        RECT 4.000 212.520 296.000 220.640 ;
-        RECT 4.000 211.120 295.600 212.520 ;
-        RECT 4.000 207.760 296.000 211.120 ;
-        RECT 4.400 206.360 296.000 207.760 ;
-        RECT 4.000 201.640 296.000 206.360 ;
-        RECT 4.000 200.240 295.600 201.640 ;
-        RECT 4.000 193.480 296.000 200.240 ;
-        RECT 4.400 192.080 296.000 193.480 ;
-        RECT 4.000 191.440 296.000 192.080 ;
-        RECT 4.000 190.040 295.600 191.440 ;
-        RECT 4.000 181.240 296.000 190.040 ;
-        RECT 4.000 179.840 295.600 181.240 ;
-        RECT 4.000 179.200 296.000 179.840 ;
+        RECT 4.000 231.560 296.000 234.920 ;
+        RECT 4.000 230.160 295.600 231.560 ;
+        RECT 4.000 222.040 296.000 230.160 ;
+        RECT 4.400 220.640 296.000 222.040 ;
+        RECT 4.000 219.320 296.000 220.640 ;
+        RECT 4.000 217.920 295.600 219.320 ;
+        RECT 4.000 207.760 296.000 217.920 ;
+        RECT 4.400 207.080 296.000 207.760 ;
+        RECT 4.400 206.360 295.600 207.080 ;
+        RECT 4.000 205.680 295.600 206.360 ;
+        RECT 4.000 194.160 296.000 205.680 ;
+        RECT 4.000 193.480 295.600 194.160 ;
+        RECT 4.400 192.760 295.600 193.480 ;
+        RECT 4.400 192.080 296.000 192.760 ;
+        RECT 4.000 181.920 296.000 192.080 ;
+        RECT 4.000 180.520 295.600 181.920 ;
+        RECT 4.000 179.200 296.000 180.520 ;
         RECT 4.400 177.800 296.000 179.200 ;
-        RECT 4.000 171.040 296.000 177.800 ;
-        RECT 4.000 169.640 295.600 171.040 ;
-        RECT 4.000 164.920 296.000 169.640 ;
+        RECT 4.000 169.000 296.000 177.800 ;
+        RECT 4.000 167.600 295.600 169.000 ;
+        RECT 4.000 164.920 296.000 167.600 ;
         RECT 4.400 163.520 296.000 164.920 ;
-        RECT 4.000 160.840 296.000 163.520 ;
-        RECT 4.000 159.440 295.600 160.840 ;
-        RECT 4.000 150.640 296.000 159.440 ;
-        RECT 4.400 149.960 296.000 150.640 ;
-        RECT 4.400 149.240 295.600 149.960 ;
-        RECT 4.000 148.560 295.600 149.240 ;
-        RECT 4.000 139.760 296.000 148.560 ;
-        RECT 4.000 138.360 295.600 139.760 ;
-        RECT 4.000 136.360 296.000 138.360 ;
+        RECT 4.000 156.760 296.000 163.520 ;
+        RECT 4.000 155.360 295.600 156.760 ;
+        RECT 4.000 150.640 296.000 155.360 ;
+        RECT 4.400 149.240 296.000 150.640 ;
+        RECT 4.000 144.520 296.000 149.240 ;
+        RECT 4.000 143.120 295.600 144.520 ;
+        RECT 4.000 136.360 296.000 143.120 ;
         RECT 4.400 134.960 296.000 136.360 ;
-        RECT 4.000 129.560 296.000 134.960 ;
-        RECT 4.000 128.160 295.600 129.560 ;
-        RECT 4.000 122.080 296.000 128.160 ;
+        RECT 4.000 131.600 296.000 134.960 ;
+        RECT 4.000 130.200 295.600 131.600 ;
+        RECT 4.000 122.080 296.000 130.200 ;
         RECT 4.400 120.680 296.000 122.080 ;
         RECT 4.000 119.360 296.000 120.680 ;
         RECT 4.000 117.960 295.600 119.360 ;
-        RECT 4.000 109.160 296.000 117.960 ;
-        RECT 4.000 107.800 295.600 109.160 ;
-        RECT 4.400 107.760 295.600 107.800 ;
-        RECT 4.400 106.400 296.000 107.760 ;
-        RECT 4.000 98.280 296.000 106.400 ;
-        RECT 4.000 96.880 295.600 98.280 ;
-        RECT 4.000 93.520 296.000 96.880 ;
-        RECT 4.400 92.120 296.000 93.520 ;
-        RECT 4.000 88.080 296.000 92.120 ;
-        RECT 4.000 86.680 295.600 88.080 ;
-        RECT 4.000 79.240 296.000 86.680 ;
-        RECT 4.400 77.880 296.000 79.240 ;
-        RECT 4.400 77.840 295.600 77.880 ;
-        RECT 4.000 76.480 295.600 77.840 ;
-        RECT 4.000 67.680 296.000 76.480 ;
-        RECT 4.000 66.280 295.600 67.680 ;
-        RECT 4.000 64.960 296.000 66.280 ;
+        RECT 4.000 107.800 296.000 117.960 ;
+        RECT 4.400 107.120 296.000 107.800 ;
+        RECT 4.400 106.400 295.600 107.120 ;
+        RECT 4.000 105.720 295.600 106.400 ;
+        RECT 4.000 94.200 296.000 105.720 ;
+        RECT 4.000 93.520 295.600 94.200 ;
+        RECT 4.400 92.800 295.600 93.520 ;
+        RECT 4.400 92.120 296.000 92.800 ;
+        RECT 4.000 81.960 296.000 92.120 ;
+        RECT 4.000 80.560 295.600 81.960 ;
+        RECT 4.000 79.240 296.000 80.560 ;
+        RECT 4.400 77.840 296.000 79.240 ;
+        RECT 4.000 69.040 296.000 77.840 ;
+        RECT 4.000 67.640 295.600 69.040 ;
+        RECT 4.000 64.960 296.000 67.640 ;
         RECT 4.400 63.560 296.000 64.960 ;
-        RECT 4.000 57.480 296.000 63.560 ;
-        RECT 4.000 56.080 295.600 57.480 ;
-        RECT 4.000 50.680 296.000 56.080 ;
+        RECT 4.000 56.800 296.000 63.560 ;
+        RECT 4.000 55.400 295.600 56.800 ;
+        RECT 4.000 50.680 296.000 55.400 ;
         RECT 4.400 49.280 296.000 50.680 ;
-        RECT 4.000 46.600 296.000 49.280 ;
-        RECT 4.000 45.200 295.600 46.600 ;
-        RECT 4.000 36.400 296.000 45.200 ;
-        RECT 4.400 35.000 295.600 36.400 ;
-        RECT 4.000 26.200 296.000 35.000 ;
-        RECT 4.000 24.800 295.600 26.200 ;
-        RECT 4.000 22.120 296.000 24.800 ;
+        RECT 4.000 44.560 296.000 49.280 ;
+        RECT 4.000 43.160 295.600 44.560 ;
+        RECT 4.000 36.400 296.000 43.160 ;
+        RECT 4.400 35.000 296.000 36.400 ;
+        RECT 4.000 31.640 296.000 35.000 ;
+        RECT 4.000 30.240 295.600 31.640 ;
+        RECT 4.000 22.120 296.000 30.240 ;
         RECT 4.400 20.720 296.000 22.120 ;
-        RECT 4.000 16.000 296.000 20.720 ;
-        RECT 4.000 14.600 295.600 16.000 ;
-        RECT 4.000 7.840 296.000 14.600 ;
-        RECT 4.400 6.975 296.000 7.840 ;
+        RECT 4.000 19.400 296.000 20.720 ;
+        RECT 4.000 18.000 295.600 19.400 ;
+        RECT 4.000 7.840 296.000 18.000 ;
+        RECT 4.400 7.160 296.000 7.840 ;
+        RECT 4.400 6.440 295.600 7.160 ;
+        RECT 4.000 6.295 295.600 6.440 ;
   END
 END wrapped_OpenPUF
 END LIBRARY
