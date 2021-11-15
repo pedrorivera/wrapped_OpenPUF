@@ -42,6 +42,9 @@ export PYTHONPATH := $(UPRJ_RTL_PATH)/wrapped_project/project/test
 
 PATTERN = project
 
+UNIMPLEMENTED:
+	echo "unimplemented"
+
 all:  coco_test
 
 hex:  ${PATTERN:=.hex}
